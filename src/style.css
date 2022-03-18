@@ -1,0 +1,266 @@
+@charset "utf-8" ;
+@import url("link_page.css");
+
+/* common style in whole pages */
+/* body style */
+body{
+    width: 100%;
+    margin: 0px 0px;
+}
+
+/* <a> font style */
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'futura', 'sans-serif';
+}
+
+/* container */
+.container {
+    margin: 0 auto;
+} 
+
+/* style of common "description" of the class name ("description" which is a part of class name, or class name "description")  */
+[class*="description"] {
+    font-family: 'futura', 'sans-serif';
+    font-size: 22px;
+    width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+    [class*="description"] {
+      font-size: 18px;
+}
+}
+
+/* style of common "title" of the class name ("title" which is a part of class name, or class name "title")  */
+[class*="title"] {
+    font-family: 'futura', 'sans-serif';
+    position: relative;
+    letter-spacing: 0.2cm;
+    font-size: 30px;
+}
+
+
+/* img for about/blog section */
+.img {
+    width: 60%;
+}
+
+/* website home page style */
+/* header */
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .container{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/* navigation in header tag */
+.nav_header {
+    margin: 0 0 0 auto;
+}
+
+.list_nav_header {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 400px){
+    .list_nav_header {
+        margin: 0px 0px;
+    }
+}
+
+.list_nav_header li {
+    padding: 0 15px;
+}
+
+.list_nav_header a {
+    color: #fff;
+    font-family:'futura', 'sans-serif';
+    font-size: 18px;
+}
+
+
+/* Main tag */
+/* home top view style */
+.area_top_view {
+    background: url(./img/background.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.area_top_view .container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area_top_view .title {
+    color: #fff;
+    font-family: 'futura', 'sans-serif'; 
+    position: relative;
+    margin: 15px 0 0 0;
+    letter-spacing: 0.3cm;
+}
+
+.area_top_view .title_sub {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* In <section> tag */
+/* each section (area_home) common */
+[class*="area_home"]{
+    padding: 60px 0;
+}
+
+
+[class*="area_home"] .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+/* each section (head_home) common */
+.head_home {
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* each section (body_home) common */
+.body_home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* links style in ABOUT/BLOG section */
+.link_page {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'futura', 'sans-serif';
+    font-size: 13px;
+}
+
+@media screen and (max-width: 400px){
+    .link_page {
+        width: 100%;
+    }
+}
+
+/* link style in ABOUT section */
+.link {
+    font-size: 17px;
+    margin: 10px;
+    padding: 1em;
+    background-color: rgb(206, 162, 96); 
+    border: 1px solid rgb(206, 137, 34); 
+}
+
+/* resume link style in ABOUT section */
+.resume {
+    display: flex;
+    align-items: center;
+}
+.download_icon {
+    width: 32px;
+}
+
+/* link style in BLOG section */
+.link2 {
+    font-size: 17px;
+    margin: 10px;
+    padding: 1em;
+    background-color: rgb(176, 142, 214); 
+    border: 1px solid rgb(107, 37, 27); 
+}
+
+/* Background-color and font style in each section */
+/* about section background color*/
+.area_home_about {
+    background-color: rgba(170, 124, 124, 0.849);
+}
+
+
+/* blog section title, background color*/
+.area_home_blog {
+    background-color: rgba(12, 11, 11, 0.747);
+}
+
+.title_blog {
+    color: #fff;
+}
+
+.description_blog {
+    color: #fff;
+}
+
+
+/* contact section background color*/
+.area_home_contact {
+    background-color:  rgba(170, 124, 124, 0.849);
+}
+
+/* CONTACT section */
+/* contact detatil */
+.contact_detail {
+    display: flex;
+    align-items: center;}
+
+
+/* Footer tag */
+footer {
+    background-color: rgba(187, 197, 197, 0.582);
+}
+
+footer .container {
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'futura', 'sans-serif';
+    font-size: 13px;
+    padding: 0 auto;
+}
+
+/* list app in Footer tag */
+.icon_back {
+    margin: 10px 0;
+}
+
+.icon_back :hover {
+    transform: scale(1.3,1.3);
+}
+
+.list_app {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.list_app li {
+    color: rgba(211, 219, 219, 0.637);
+    padding: 0 20px;
+}
+

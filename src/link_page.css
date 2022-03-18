@@ -1,0 +1,228 @@
+/* here is all link page style such as profile page, education page, blog top page and blog post pages */
+
+/* common style  (every page has the same style) */
+/* header tag */
+.page_header {
+    background-color: rgb(230, 178, 221);
+}
+
+/* navigation style in header tag */
+.nav_back {
+    display: flex;
+    justify-content: center;
+    font-family: 'futura', 'sans-serif';
+    font-size: 15px;
+    justify-self: center;
+    margin: 40px 0;
+}
+
+.nav_back :hover {
+    font-size: 18px;
+    color: rgb(119, 63, 63);
+    font-weight: bold;
+}
+
+/* title of each page */
+[class*="head_page"] {
+    padding: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head_page .title {
+    color: rgb(39, 39, 114);
+}
+
+/* footer tag */
+.page_footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* profile page ONLY */
+/* in <body> tag */
+.profile_page {
+    position:relative;
+    background-color: rgba(245, 206, 245, 0.582);
+}
+
+/* <section> My profile photo and about me */
+.profile {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+      flex-direction: column;
+}
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 0 0 0 30px;
+}
+
+.profile .description {
+    margin: 0 50px;
+  
+}
+
+/* line_height style is also for list of My Interests and hobbies and Coding Skills */
+.line_height {
+    line-height: 30px;
+}
+
+/* My Interests and hobbies and Coding Skills */
+.page_section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0 0 30px;
+}
+
+.page_container {
+    padding: 40px 40px 0 0;
+    width: 350px;
+}
+
+.sub_title {
+    margin: 0 0 30px 0;
+    color: rgba(40, 104, 104, 0.925);
+}
+
+.list {
+    font-size: 20px;
+    font-family: 'futura', 'sans-serif';
+
+}
+
+
+/* education page ONLY*/
+/* in <body> tag */
+.education_page {
+    position:relative;
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+}
+
+/* list of my education */
+.list-education {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .list-education {
+      flex-direction: column;
+}
+}
+
+.list-education .description {
+    width: 80%;
+}
+
+.school_icon {
+    margin: 50px 50px;
+}
+
+
+/* blog top (main) page ONLY*/
+/* in <body> tag */
+.blog_page{
+    background: rgba(137, 118, 143, 0.664) ;
+}
+
+/* Blog lists */
+.blog_list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.blog_post {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_post li {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .blog_post li {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.blog_link {
+    font-family: 'futura', 'sans-serif';
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.2cm;
+}
+
+@media screen and (max-width: 500px) {
+    .blog_link {
+        margin: 0 0 20px 0;
+    }
+}
+
+.blog_link :hover {
+    color: rgb(132, 30, 141);
+    font-size: 30px;
+    transition: 1.5s;
+
+}
+
+/* blog top page and blog post page common style */
+[class*="blog_date"] {
+    font-family: 'futura', 'sans-serif';
+    letter-spacing: 0.2cm;
+    line-height: 100px;
+    margin: 0 30px 0 0;
+} 
+
+/* blog post page ONLY */
+/* Blog title */
+.head_page_blog .title{
+    margin: 50px 0 0 0 ;
+    font-size: 35px;
+}
+
+/* Blog published date */
+.head_page_blog .blog_date {
+    font-size: 15px;
+}
+
+/* image of blog article */
+.img-blog-post {
+    width: 80%;
+}
+
+/* Blog article */
+.blog_article {
+    margin: 40px 25px;
+    padding: 10px;
+    background-color: rgba(231, 213, 230, 0.87);
+}
+
+.blog_article p {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
