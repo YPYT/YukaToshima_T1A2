@@ -7,31 +7,31 @@ To demonstrate my skills as a developer.
 
 ## Target audience
 
-- People who are looking for a web developer.
+People who are looking for a web developer.
 
 ## Functionality / features
 
 - Website top page
 
-⋅⋅* The website top page has 3 section; ABOUT / BLOG / CONTACT 
+  - The website top page has 3 section; ABOUT / BLOG / CONTACT 
 
-⋅⋅* In the head of the page, it has a navigation bar to navigate each section easily.
+  - In the head of the page, it has a navigation bar to navigate each section easily.
 
-⋅⋅* In the bottom of the page, it has links to GitHub and LinkedIn, and arrow button to navigate to the top of the page.
+  - In the bottom of the page, it has links to GitHub and LinkedIn, and arrow button to navigate to the top of the page.
 
 - ABOUT section
 
-⋅⋅* ABOUT section has a 3 links which navigate to profile page, education page and sesume PDF file.
+  - ABOUT section has a 3 links which navigate to profile page, education page and sesume PDF file.
 
-⋅⋅* Profile page and education page each have a link back to the website top page.
+  - Profile page and education page each have a link back to the website top page.
 
 - BLOG section
 
-⋅⋅* Blog section has a link to blog main page.
+  - Blog section has a link to blog main page.
 
-⋅⋅* Blog main page has 5 links of blog posts. Also, it has a link back to the website top page.
+  - Blog main page has 5 links of blog posts. Also, it has a link back to the website top page.
 
-⋅⋅* The blog post pages have a link back to blog main page.
+  - The blog post pages have a link back to blog main page.
 
 ## Sitemap
 
