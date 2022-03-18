@@ -67,4 +67,4 @@ Here's the screenshots of my website:
 
 [My website link](https://admiring-wozniak-731ae3.netlify.app) 
 
-[My GitHub repository link]()
+[My GitHub repository link](https://github.com/YPYT/YukaToshima_T1A2)
