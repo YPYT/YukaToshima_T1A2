@@ -33,6 +33,14 @@ People who are looking for a web developer.
 
   - The blog post pages have a link back to blog main page.
 
+- CONTACT section
+
+  - Contact section has my email address.
+
+- Footer of website
+
+  - In the footer, it has a link back to web top page, and also GitHub link and LinkedIn link.
+
 ## Sitemap
 
 Here's the sitemap of my website:
