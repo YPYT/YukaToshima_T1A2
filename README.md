@@ -17,13 +17,13 @@ People who are looking for a web developer.
 
   - In the head of the page, it has a navigation bar to navigate each section easily.
 
-  - In the bottom of the page, it has links to GitHub and LinkedIn, and arrow button to navigate to the top of the page.
+  - In the bottom of the page, it has links to my professional account of GitHub and LinkedIn, and arrow button to navigate to the top of the page.
 
 - ABOUT section
 
-  - ABOUT section has a 3 links which navigate to profile page, education page and sesume PDF file.
+  - About section has 3 links which navigate to the profile page, education page and my sesume PDF file.
 
-  - Profile page and education page each have a link back to the website top page.
+  - The profile page and education page each have a link back to the website top page.
 
 - BLOG section
 
@@ -36,10 +36,6 @@ People who are looking for a web developer.
 - CONTACT section
 
   - Contact section has my email address.
-
-- Footer of website
-
-  - In the footer, it has a link back to web top page, and also GitHub link and LinkedIn link.
 
 ## Sitemap
 
@@ -68,3 +64,4 @@ Here's the screenshots of my website:
 [My website link](https://admiring-wozniak-731ae3.netlify.app) 
 
 [My GitHub repository link](https://github.com/YPYT/YukaToshima_T1A2)
+
