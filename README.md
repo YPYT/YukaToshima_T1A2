@@ -17,11 +17,11 @@ People who are looking for a web developer.
 
   - In the head of the page, it has a navigation bar to navigate each section easily.
 
-  - In the bottom of the page, it has links to my professional account of GitHub and LinkedIn, and arrow button to navigate to the top of the page.
+  - In the bottom of the page, it has links to my professional account of GitHub and LinkedIn, and an arrow button to navigate to the top of the page.
 
 - ABOUT section
 
-  - About section has 3 links which navigate to the profile page, education page and my sesume PDF file.
+  - About section has 3 links which navigate to the profile page, education page and my resume PDF file.
 
   - The profile page and education page each have a link back to the website top page.
 
